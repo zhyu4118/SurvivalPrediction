@@ -103,6 +103,8 @@ score = weighted_cindex_ipcw(oof_normalized, y_surv, risk_groups)
 | DeepSurv 83 fixed | 0.7169 | 0.6918 | 0.6614 | 0.6902 |
 | **Ensemble (50/5/15/30)** | **0.7253** | **0.7008** | **0.6733** | **0.6998** |
 
+Public leaderboard score: 0.7632
+
 ## Requirements
 
 ```
