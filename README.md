@@ -1,6 +1,6 @@
 # Survival Prediction Challenge
 
-Machine learning models for MDS/AML survival prediction using XGBoost AFT, Cox Proportional Hazards, DeepSurv, CatBoost+LightGBM, and ensemble methods.
+Machine learning models for Myeloid Leukemia patient survival prediction competition by QRT.
 
 ## Project Structure
 
