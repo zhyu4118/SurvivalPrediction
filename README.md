@@ -109,7 +109,7 @@ Public leaderboard score: 0.7632
 
 ### Feature Engineering
 
-- Investigate features driving performance on test-like and high-risk subgroups specifically
+- Investigate features driving performance on test-like and high-risk subgroups
 - Engineer interaction features from key clinical risk factors (BM_BLAST, TP53, HB, PLT, cytogenetic risk)
 - Experiment with alternative target definitions and survival time transformations
 
@@ -121,11 +121,7 @@ Public leaderboard score: 0.7632
 ### Distribution Shift
 
 - Systematic analysis of training vs test distribution differences
-- Features designed to generalize to sicker patient subgroups
-
-### Leaderboard Gap Analysis
-
-- Investigate the gap between CV score (0.6998) and public leaderboard score (0.7632)
+- Design features that generalize to sicker patient subgroups
 
 ## Requirements
 
