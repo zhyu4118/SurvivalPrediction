@@ -103,12 +103,13 @@ score = weighted_cindex_ipcw(oof_normalized, y_surv, risk_groups)
 | DeepSurv 83 fixed | 0.7169 | 0.6918 | 0.6614 | 0.6902 |
 | **Ensemble (50/5/15/30)** | **0.7253** | **0.7008** | **0.6733** | **0.6998** |
 
-Public leaderboard score: 0.7632
+Public leaderboard score: 0.7632; rank 77/709.
 
 ## Next Steps 
 
 ### Feature Engineering
 
+- All base models produced similar cv scores, suggesting more extensive feature engineering is needed
 - Investigate features driving performance on test-like and high-risk subgroups
 - Engineer interaction features from key clinical risk factors (BM_BLAST, TP53, HB, PLT, cytogenetic risk)
 - Experiment with alternative target definitions and survival time transformations
