@@ -107,7 +107,7 @@ Public leaderboard score: 0.7632
 
 ## Next Steps 
 
-# Feature Engineering
+### Feature Engineering
 
 - Investigate features driving performance on test-like and high-risk subgroups specifically
 - Engineer interaction features from key clinical risk factors (BM_BLAST, TP53, HB, PLT, cytogenetic risk)
