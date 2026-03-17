@@ -116,6 +116,7 @@ Public leaderboard score: 0.7632; rank 77/709.
 
 ### Ensembling
 
+- Current ensembling strategy (weighted average) can overfit
 - Replace grid search weight optimization with stacking — train a meta-learner (ridge regression) on out-of-fold predictions from base models
 - Evaluate subgroup-specific ensembling strategies
 
