@@ -113,17 +113,17 @@ Public leaderboard score: 0.7632
 - Engineer interaction features from key clinical risk factors (BM_BLAST, TP53, HB, PLT, cytogenetic risk)
 - Experiment with alternative target definitions and survival time transformations
 
-# Ensembling
+### Ensembling
 
 - Replace grid search weight optimization with stacking — train a meta-learner (ridge regression) on out-of-fold predictions from base models
 - Evaluate subgroup-specific ensembling strategies
 
-# Distribution Shift
+### Distribution Shift
 
 - Systematic analysis of training vs test distribution differences
 - Features designed to generalize to sicker patient subgroups
 
-# Leaderboard Gap Analysis
+### Leaderboard Gap Analysis
 
 - Investigate the gap between CV score (0.6998) and public leaderboard score (0.7632)
 
